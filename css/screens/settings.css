@@ -1,0 +1,18 @@
+.settings-list {
+}
+.settings-item {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--border);
+  font-size: 22px;
+}
+.settings-item i {
+  margin-right: 20px;
+  font-size: 24px;
+}
+.settings-item__column:last-child {
+  font-size: 20px;
+  color: var(--gray04);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cc31aeb1bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chat Screen</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+
+      <!-- BEM CSS 방식의 클래스명 쓰기 -->
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">bboman</div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat-timestemp">Tuesday, June 30. 2020</div>
+      <div class="message-row">
+        <img src="http://127.0.0.1:5501/img/profile.png" />
+        <div class="message-row">
+          <div class="message-row__container">
+            <span class="message__author">bboman</span>
+            <div class="message__info">
+              <span class="message-bubble">Hdddffffffi!</span>
+              <span class="message-time">21:44</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__container">
+          <!-- <span class="message__author">bboman</span> -->
+          <div class="message__info">
+            <span class="message-bubble">Hdddffffffi!</span>
+            <span class="message-time">21:48</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="replay">
+      <div class="replay__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="replay__column">
+        <input type="text" placeholder="Write a message.." />
+        <i class="far fa-smile fa-2x"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/b5854c9c08.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
